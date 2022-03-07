@@ -3,7 +3,11 @@ import MyNavbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
 import Runbuddy from "../images/Runbuddy.png";
-
+import freeurmind from "../images/freeurmind.png";
+import BATTLESTATS from "../images/BATTLESTATS.png";
+import tech from "../images/tech-blog.png";
+import Budget from "../images/budget.png";
+import Weather from "../images/weather.png";
 
 const Portfolio = (props) => {
 
@@ -11,20 +15,18 @@ const Portfolio = (props) => {
         <MyNavbar/>
         <section style={{backgroundColor:'#9a8f97', height:'100%', display:'flex', justifyContent:'space-evenly'}}>
             <div>
-                {/* <a className="Work" href=" https://prestonw15.github.io/RUN-BUDDY/">RUN-BUDDY</a>
-                <img className="Runbuddy" src="./Assets/images/Runbuddy.png" alt="Runbuddy homepage"/> */}
-        <Card Link="https://prestonw15.github.io/RUN-BUDDY/" pic={Runbuddy} alt="Runbuddy homepage" repo="" name="Run-Buddy" />
-                {/* <a className="Work" href="https://freeurmindpw.herokuapp.com/">Free Ur Mind</a>
-                <img className="FreeUrMind" src="./src/images/freeurmind.png" alt="Free UR Mind Homepage"/> */}
-        <Card Link="https://freeurmindpw.herokuapp.com/" pic={Runbuddy} alt="Freeurmind" />
-                <a className="Work" href="https://thisismyswamp.herokuapp.com/">Budget-Tracker</a>
-                <img className="Budget-Tracker" src="./src/images/2022-02-13.png" alt="Screenshot of Budget-Tracker"/>
-           
-                <a className="Work" href="https://orgesarelikeonions.herokuapp.com/">Tech-Blog</a>
-                <img className="Tech-Blog" src="./src/images/2022-02-13.png" alt="Tech-Blog Homepage screenshot"/>
-            
-                <a className="Work" href="https://battlestats.herokuapp.com/">BATTLESTATS</a>
-                <img className="BATTLESTATS2.0" src="./src/images/BATTLESTATS.png" alt="BATTLESTATS login page"/>
+
+        <Card Link="https://prestonw15.github.io/RUN-BUDDY/" pic={Runbuddy} alt="Runbuddy homepage" repo="https://github.com/Prestonw15/RUN-BUDDY" name="Run-Buddy" />
+
+        <Card Link="https://freeurmindpw.herokuapp.com/" pic={freeurmind} alt="Freeurmind" repo="https://github.com/Prestonw15/freeurmind" name="FreeUrMind"/>
+
+        <Card Link="https://thisismyswamp.herokuapp.com/" pic={Budget} alt="Budget-Tracker" repo="https://github.com/Prestonw15/Budget-Tracker" name="Budget-Tracker"/>  
+
+        <Card Link="https://orgesarelikeonions.herokuapp.com/" pic={tech} alt="Tech-Blog" repo="https://github.com/Prestonw15/tech-blog" name="Tech-Blog"/>  
+
+        <Card Link="https://battlestats.herokuapp.com/" pic={BATTLESTATS} alt="BATTLESTATS" repo="https://github.com/Prestonw15/BATTLESTATS2.0" name="BATTLESTATS"/>
+
+        <Card Link="https://prestonw15.github.io/Weather-Dashboard/" pic={Weather} alt="Weather-api" repo="https://github.com/Prestonw15/Weather-Dashboard" name="Weather-Api"/>  
             </div>
         </section>
         <Footer/>
