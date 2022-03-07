@@ -5,7 +5,7 @@
 This is my react portfolio which is just a webpage built to show off my applications and skills using react
 
 # Deploy Link
-
+LINK IS STRUGGLING
 https://prestonw15.github.io/React/
 
 # Installations and packages
