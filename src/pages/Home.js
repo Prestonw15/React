@@ -11,6 +11,16 @@ const Home = (props) => {
         <div style={{textAlign:"center"}}>
             <img className="profile" src={profile} alt="profile pic" /> <br/>
             <a href="https://docs.google.com/document/d/1oxoqsUDnObQh2quBDT4kCnPS473Sw28QyVMgdVuL3pU/edit?usp=sharing">Click Here For My Resume</a>
+            <h2 className="mx-auto">List of language Proficiencies</h2>
+            <ul className="mx-auto">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>react</li>
+                <li>Mysql</li>
+                <li>MongoDb</li>
+                <li>Node</li>
+            </ul>
         </div>
         <Footer/>
         </>
