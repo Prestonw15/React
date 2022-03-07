@@ -1,12 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../index.css";
+import "../index";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
+    const myStyle = {
+        height: "15%",
+        display: "flex",
+        justifyContent: "space-between",
+        color: "white",
+        backgroundColor: "darkGrey",
+        padding: "10px",
+    }
     return( <>
     <header>
-        <nav>
+        <nav style={myStyle}>
             <ul>
                 <li><Link to={"/Home"}>Home</Link></li>
                 <li><Link to="/Portfolio">Portfolio</Link> </li>

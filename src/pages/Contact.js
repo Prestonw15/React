@@ -11,7 +11,7 @@ const Contact = (props) => {
         <section className="Social-Platforms">
         <div>
             <h2>Email:</h2>
-            <p>prestonwatson.15@gmail.com</p>
+            <a href="mailto:prestonwatson.15@gmail.com">prestonwatson.15@gmail.com</a>
         </div>
         <div>
             <h2>Phone Number</h2>
@@ -19,7 +19,7 @@ const Contact = (props) => {
         </div>
         <div>
             <h2>Github:</h2>
-            <p>Prestonw15</p>
+            <a href="https://github.com/Prestonw15">Prestonw15</a>
         </div>
         
         </section>
