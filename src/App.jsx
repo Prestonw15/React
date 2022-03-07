@@ -11,9 +11,9 @@ import './index.css';
 
 function App() {
     return(
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
         <div>
-            <Route exact path={"/Home"}><Home/></Route>
+            <Route exact path={"/"}><Home/></Route>
             <Route exact path={"/About"}><About/></Route>
             <Route exact path={"/Portfolio"}><Portfolio/></Route>
             <Route exact path={"/Contact"}><Contact/></Route>

@@ -1,21 +1,22 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import MyNavbar from "../components/Navbar";
 import Footer from "../components/Footer";
-
+import Card from "../components/Card";
+import Runbuddy from "../images/Runbuddy.png";
 
 
 const Portfolio = (props) => {
 
     return(<>
-        <Navbar/>
+        <MyNavbar/>
         <section style={{backgroundColor:'#9a8f97', height:'100%', display:'flex', justifyContent:'space-evenly'}}>
             <div>
-                <a className="Work" href=" https://prestonw15.github.io/RUN-BUDDY/">RUN-BUDDY</a>
-                <img className="Runbuddy" src="./Assets/images/Runbuddy.png" alt="Runbuddy homepage"/>
-
-                <a className="Work" href="https://freeurmindpw.herokuapp.com/">Free Ur Mind</a>
-                <img className="FreeUrMind" src="./src/images/freeurmind.png" alt="Free UR Mind Homepage"/>
-
+                {/* <a className="Work" href=" https://prestonw15.github.io/RUN-BUDDY/">RUN-BUDDY</a>
+                <img className="Runbuddy" src="./Assets/images/Runbuddy.png" alt="Runbuddy homepage"/> */}
+        <Card Link="https://prestonw15.github.io/RUN-BUDDY/" pic={Runbuddy} alt="Runbuddy homepage" repo="" name="Run-Buddy" />
+                {/* <a className="Work" href="https://freeurmindpw.herokuapp.com/">Free Ur Mind</a>
+                <img className="FreeUrMind" src="./src/images/freeurmind.png" alt="Free UR Mind Homepage"/> */}
+        <Card Link="https://freeurmindpw.herokuapp.com/" pic={Runbuddy} alt="Freeurmind" />
                 <a className="Work" href="https://thisismyswamp.herokuapp.com/">Budget-Tracker</a>
                 <img className="Budget-Tracker" src="./src/images/2022-02-13.png" alt="Screenshot of Budget-Tracker"/>
            

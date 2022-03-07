@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import MyNavbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const About = (props) => {
 
     return(<>
-        <Navbar/>
+        <MyNavbar/>
         <h1 style={{textAlign:'center'}}>About Me</h1>
         <div style={{width:'75%', padding:'10px', fontSize:'20px'}}>
             I'm a 24 yr old male, who just finsihed studying code at University of Utah! I'm Now a Certified FUll-Stack Developer and can use multiple languages and database to help me build my applications.

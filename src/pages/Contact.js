@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import MyNavbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 
@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const Contact = (props) => {
 
     return(<>
-        <Navbar/>
+        <MyNavbar/>
         <section className="Social-Platforms" style={{display:"flex", justifyContent:'space-between', textAlign:'center', width:'75%', padding:'50px'}}>
         <div>
             <h2>Email:</h2>
