@@ -1,5 +1,5 @@
 {
-  "name": "presotn-watson-portfolio",
+  "name": "preston-watson-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,7 +32,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://github.com/Prestonw15/React",
+  "homepage": " https://prestonw15.github.io/React/",
   "browserslist": [
     ">0.2%",
     "not dead",
