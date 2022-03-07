@@ -4,22 +4,14 @@ import "../index";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
-    const myStyle = {
-        height: "15%",
-        display: "flex",
-        justifyContent: "space-between",
-        color: "white",
-        backgroundColor: "darkGrey",
-        padding: "10px",
-    }
     return( <>
     <header>
-        <nav style={myStyle}>
-            <ul>
-                <li><Link to={"/Home"}>Home</Link></li>
-                <li><Link to="/Portfolio">Portfolio</Link> </li>
-                <li><Link to="/Contact">Contact Me</Link> </li>
-                <li><Link to="/About">About Me</Link> </li>
+        <nav style={{background:"linear-gradient(#9a8f97 50%,black 100%)", display:'inline-flex', justifyContent:'space-evenly', color:'white', fontSize:'35px', width:'100%'}}>
+            <ul style={{display:'inline'}}>
+                <li><Link style={{color:'white'}} to={"/Home"}>Home</Link></li>
+                <li><Link style={{color:'white'}} to="/Portfolio">Portfolio</Link> </li>
+                <li><Link style={{color:'white'}} to="/Contact">Contact Me</Link> </li>
+                <li><Link style={{color:'white'}} to="/About">About Me</Link> </li>
             </ul>
         </nav>
     </header>

@@ -6,8 +6,8 @@ const About = (props) => {
 
     return(<>
         <Navbar/>
-        <h1>About Me</h1>
-        <div>
+        <h1 style={{textAlign:'center'}}>About Me</h1>
+        <div style={{width:'75%', padding:'10px', fontSize:'20px'}}>
             I'm a 24 yr old male, who just finsihed studying code at University of Utah! I'm Now a Certified FUll-Stack Developer and can use multiple languages and database to help me build my applications.
             Some of the things I enjoy are:
             <ul>

@@ -22,11 +22,11 @@ const Portfolio = (props) => {
         </div>
         <div>
             <a className="Work" href="https://orgesarelikeonions.herokuapp.com/">Tech-Blog</a>
-            <img className="FreeUrMind" src="./src/images/2022-02-13.png" alt="Tech-Blog Homepage screenshot"/>
+            <img className="Tech-Blog" src="./src/images/2022-02-13.png" alt="Tech-Blog Homepage screenshot"/>
         </div>
         <div>
-            <a className="Work" href="https://freeurmindpw.herokuapp.com/">Free Ur Mind</a>
-            <img className="FreeUrMind" src="./src/images/2022-02-13.png" alt="Free UR Mind Homepage"/>
+            <a className="Work" href="https://battlestats.herokuapp.com/">BATTLESTATS</a>
+            <img className="BATTLESTATS2.0" src="./src/images/2022-02-13.png" alt="BATTLESTATS login page"/>
         </div>
         <Footer/>
         </>

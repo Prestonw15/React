@@ -8,7 +8,7 @@ const Contact = (props) => {
 
     return(<>
         <Navbar/>
-        <section className="Social-Platforms">
+        <section className="Social-Platforms" style={{display:"flex", justifyContent:'space-between', textAlign:'center', width:'75%', padding:'50px'}}>
         <div>
             <h2>Email:</h2>
             <a href="mailto:prestonwatson.15@gmail.com">prestonwatson.15@gmail.com</a>
